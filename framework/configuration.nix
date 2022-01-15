@@ -48,6 +48,10 @@
     pkgs.gnome.gedit 
   ];
 
+  environment.variables = rec {
+    EDITOR = "vim";
+  };
+
   # Configure keymap in X11
   services.xserver.layout = "us";
   # services.xserver.xkbOptions = "eurosign:e";
