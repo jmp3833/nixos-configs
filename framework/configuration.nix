@@ -71,18 +71,19 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    wget
-    firefox
+    #editors
+    vim 
     alacritty
+   
+    #utils 
+    wget
+    xclip
     htop
     tmux
     git
-
-    #editors
-    jetbrains.idea-community
-    vim 
     
     #apps
+    firefox
     spotify
     zoom-us
 
