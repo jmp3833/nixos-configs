@@ -78,6 +78,7 @@
     #editors
     vim 
     alacritty
+    vscode
    
     #utils 
     wget
@@ -90,6 +91,9 @@
     firefox
     spotify
     zoom-us
+    gparted
+    mupdf
+    libreoffice
 
     #games 
     steam
